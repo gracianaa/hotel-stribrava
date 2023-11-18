@@ -1,9 +1,11 @@
 import { useEffect, useState } from 'react';
 import { KartaPokoj } from '../KartaPokoj';
 import './style.css';
+import { DetailPokoje } from '../DetailPokoje';
 
 export const Pokoje = () => {
   const [pokoje, setPokoje] = useState([]);
+  const [detail, setDetail] = useState(null);
 
   useEffect(() => {
     const handleFetch = async () => {
@@ -22,10 +24,11 @@ export const Pokoje = () => {
         <p>Vyberte si, který z našich pokojů je pro vás ten pravý.</p>
         <div className="cards-row">
           {pokoje.map((pokoj) => (
-            <KartaPokoj pokoj={pokoj} />
+            <KartaPokoj pokoj={pokoj} onDetail={setDetail} />
           ))}
         </div>
       </div>
+      {detail === null ? null : <DetailPokoje pokoj={detail} />}
     </section>
   );
 };
