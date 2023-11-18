@@ -12,7 +12,7 @@ export const DetailPokoje = ({ pokoj }) => {
             <img src={pokoj.img} />
             <p>{pokoj.description}</p>
           </div>
-          <Formular />
+          <Formular pokoj={pokoj} />
         </div>
       </div>
     </section>

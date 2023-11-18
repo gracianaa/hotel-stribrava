@@ -24,7 +24,7 @@ export const Pokoje = () => {
         <p>Vyberte si, který z našich pokojů je pro vás ten pravý.</p>
         <div className="cards-row">
           {pokoje.map((pokoj) => (
-            <KartaPokoj pokoj={pokoj} onDetail={setDetail} />
+            <KartaPokoj key={pokoj.id} pokoj={pokoj} onDetail={setDetail} />
           ))}
         </div>
       </div>

@@ -1,3 +1,5 @@
+import mapa from './mapa.png';
+
 export const Kontakt = () => {
   return (
     <section className="dark">
@@ -15,7 +17,7 @@ export const Kontakt = () => {
             </a>
           </p>
         </div>
-        <img src="mapa.png" />
+        <img src={mapa} />
       </div>
     </section>
   );
