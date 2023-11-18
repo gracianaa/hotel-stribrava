@@ -1,0 +1,23 @@
+[
+  {
+    "id": 0,
+    "title": "Seznam",
+    "description": "Nejlepší český vyhledávač",
+    "url": "https://www.seznam.cz",
+    "type": "web"
+  },
+  {
+    "id": 1,
+    "title": "YouTube UnJaded Jade",
+    "description": "How to Become a Top 1% Student using AI (it's not cheating!)",
+    "url": "https://www.youtube.com/watch?v=kbhG1alb_dg&t=1s&ab_channel=UnJadedJade",
+    "type": "youtube video"
+  },
+  {
+    "id": 2,
+    "title": "Kodim",
+    "description": "Nejlepší kurz",
+    "url": "https://kodim.cz/vyvoj-webu/daweb/js2/api-parametry/cv-lokalni-api/spravce-odkazu",
+    "type": "web course"
+  }
+]
