@@ -33,12 +33,12 @@ section {
 }
 
 section.dark {
-  background-color: gray;
-  color: white;
+  background-color: #131E2A;
+  color: #e8e9f3;
 }
 
 section.dark a {
-  color: white;
+  color: #e8e9f3;
 }
 
 section.dark *::-webkit-scrollbar {
@@ -65,7 +65,7 @@ section.dark *::-webkit-scrollbar-thumb:hover {
 
 section.light {
   background-color: #e8e9f3;
-  color: black;
+  color: #131E2A;
 }
 
 img {

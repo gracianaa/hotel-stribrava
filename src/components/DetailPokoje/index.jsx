@@ -1,3 +1,4 @@
+import { Formular } from '../Formular';
 import './style.css';
 export const DetailPokoje = ({ pokoj }) => {
   return (
@@ -11,6 +12,7 @@ export const DetailPokoje = ({ pokoj }) => {
             <img src={pokoj.img} />
             <p>{pokoj.description}</p>
           </div>
+          <Formular />
         </div>
       </div>
     </section>
